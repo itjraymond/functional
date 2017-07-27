@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="nav nav-tabs nav-stacked">
+                        <li class="active"><a href="#work">work</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-9">
+                    <div class="tab-content">
+
+                        <!-- WORK -->
+                        <div id="work" class="tab-pane fade in active">
+                            <h4>work</h4>
+                            
+                            <div class="dynamic-load">
+                                <ul>
+                                    <li><a href="animation.html">animation</a></li>
+                                    <li><a href="3d-animation.html">3d-animation</a></li>
+                                    <li><a href="2d-animation.html">2d-animation</a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+
+                        <!-- ABOUT -->
+                        <div id="about" class="tab-pane fade">
+                            <h4>about</h4>
+                            
+                        </div>
+
+                        <!-- CONTACT -->
+                        <div id="contact" class="tab-pane fade">
+                            <h4>contact</h4>
+                            
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        
+        $(document).ready(function() {
+           
+           $(".nav-tabs a").click(function() {
+              $(this).tab("show"); 
+           });
+
+//           $(".dynamic-load a").click(function() {
+//               // add dynamic load here...
+//              $(this).tab("show"); 
+//           });
+        });
+    </script>
+    
+    </body>
+</html>

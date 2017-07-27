@@ -5,6 +5,7 @@ package ca.jent.functional;
  * The principle is carefully name the abstraction of the rule such that the
  * user can refer to those abstractions instead of knowing the computation of
  * the rule.
+ * Can we view these as "different behaviors?"
  * @author jraymond
  */
 public class Rules {
