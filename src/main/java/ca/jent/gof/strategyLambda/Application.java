@@ -4,7 +4,10 @@ import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
 
 /**
- *
+ * Using lambda we de-couple the "filter" and "format" functionalities.  In addition, any new filter
+ * and/or format, we do not need to create new classes that implements those functionalities.
+ * We can say that each strategy type (filter, format, etc...) has been separated by parameterizing
+ * them with functions.
  * @author jraymond
  */
 public class Application {
